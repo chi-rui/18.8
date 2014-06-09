@@ -4,7 +4,16 @@ import java.awt.event.*;
 import java.awt.*;
 
 public class BallControl extends JPanel {
-	   
+	  
+	 public static void main(String args[]){   
+		JFrame frame = new JFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setTitle("BounceBallApp");
+		frame.add((new BallControl()), BorderLayout.CENTER);
+		frame.setSize(400, 320);
+		frame.setVisible(true);
+	  }
+	 
 	  private Ball ball = new Ball();
 	  private JButton jbtSuspend = new JButton("Suspend");
 	  private JButton jbtResume = new JButton("Resume");

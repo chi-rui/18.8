@@ -1,4 +1,4 @@
-import java.awt.*;
+/**import java.awt.*;
 import javax.swing.*;
 
 public class BounceBallApp extends JApplet{
@@ -6,3 +6,4 @@ public class BounceBallApp extends JApplet{
     add(new BallControl());
   }
 }
+*/
